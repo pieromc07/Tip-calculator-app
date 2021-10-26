@@ -1,0 +1,36 @@
+/** @format */
+
+:root {
+	--Very-dark-cyan: #00484c;
+	--Dark-grayish-cyan: #5e797d;
+	--Dark-grayish-cyan-2: #7f9c9e;
+	--Light-grayish-cyan: #c5e4e6;
+	--Light-grayish-cyan-2: #f4f9fa;
+	--White: #ffffff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+	background-color: var(--Light-grayish-cyan);
+
+	font-family: "Space Mono", monospace;
+}
+
+.logo {
+	max-width: 1080px;
+    height: 50px;
+    text-align: center;
+    margin: 20px;
+}
+.container {
+	background-color: var(--White);
+	padding: 20px;
+    border-radius: 20px;
+    max-width: 1080px;
+    height: calc(100vh - 150px);
+}
